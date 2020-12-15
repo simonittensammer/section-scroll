@@ -27,7 +27,3 @@ window.onscroll = function() {
     }
     window.scrollTo(0, currentTop);
 }
-
-function roundHundred(value){
-    return Math.round(value/100)*100
-}
