@@ -1,8 +1,6 @@
 var h = 0;
-var scrolling = false;
-
 var currentTop = 0;
-var spazi = 25;
+var scrolling = false;
 
 window.onload = init();
 
