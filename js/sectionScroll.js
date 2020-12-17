@@ -1,8 +1,6 @@
 var h = 0;
-var scrolling = false;
-
 var currentTop = 0;
-var spazi = 25;
+var scrolling = false;
 
 window.onload = init();
 
@@ -26,8 +24,4 @@ window.onscroll = function() {
         scrolling = true;
     }
     window.scrollTo(0, currentTop);
-}
-
-function roundHundred(value){
-    return Math.round(value/100)*100
 }
